@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: content-box;
+}
+body{
+    background-color: darkblue;
+}
+#gamebox{
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-left:-25vw;
+    margin-top: -35vh;
+    width: 50vw;
+    height: 70vh;
+    border: 5px solid slateblue;
+    background-color: black;
+}
+#pacman{
+    border-radius: 50%;
+    position: absolute;
+    width:2vw;
+    height:2vw;
+    background-color: yellow;
+}
